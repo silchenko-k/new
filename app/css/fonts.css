@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../font/Montserrat-Regular.woff2") format("woff2"), url("../font/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("../font/Montserrat-Bold.woff2") format("woff2"), url("../font/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GoodDog Cool';
+  src: local("GoodDog Cool"), local("GoodDogCool"), url("../font/GoodDogCool.woff2") format("woff2"), url("../font/GoodDogCool.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local("Montserrat Light"), local("Montserrat-Light"), url("../font/Montserrat-Light.woff2") format("woff2"), url("../font/Montserrat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+/*# sourceMappingURL=fonts.css.map */

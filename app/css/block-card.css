@@ -1,0 +1,84 @@
+body {
+  margin: 0; }
+
+* {
+  box-sizing: border-box; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+p {
+  margin: 0; }
+
+h1, h2, h3 {
+  margin: 0; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 1280px; }
+
+.block-card {
+  height: 375px;
+  box-sizing: border-box;
+  background-color: #45493b; }
+
+.box-cards {
+  padding-top: 97px;
+  display: flex;
+  justify-content: space-between;
+  color: #eaeaea;
+  margin-left: 83px;
+  margin-right: 98px; }
+  .box-cards__cards {
+    width: 308px; }
+
+.text-card {
+  margin-top: 33px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 25px; }
+
+.subtitle {
+  padding-top: 61px;
+  font-family: "GoodDog Cool";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 20px;
+  position: relative; }
+
+.icon-tastes:after {
+  content: "";
+  background-image: url(../image/Brush.png);
+  width: 25px;
+  height: 36px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.icon-dishes:after {
+  content: "";
+  background-image: url(../image/Brush2.png);
+  width: 61px;
+  height: 36px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.icon-restaurant:after {
+  content: "";
+  background-image: url(../image/Brush3.png);
+  width: 94px;
+  height: 36px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/*# sourceMappingURL=block-card.css.map */

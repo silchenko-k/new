@@ -1,0 +1,59 @@
+
+
+body {
+	margin:0;
+}
+* {
+	box-sizing: border-box;
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+a {
+	text-decoration:none;
+}
+p {
+	margin:0;
+}
+h1 {
+	margin :0;
+}
+.wrapper {
+	margin:0 auto;
+	width:1280px;
+} 
+
+.block-cook {
+	background-image: url(../image/background-cook.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 489px;
+	box-sizing: border-box;
+	display: flex;
+	&__box {
+		justify-content: space-between;
+		padding-top: 166px;
+		width: 557px;
+	}
+}
+.font-title {
+	font-family: 'GoodDog Cool';
+	font-size: 29px;
+	line-height: 25px;
+	color:#afc67b;
+}
+.font-text {
+	font-family: 'Montserrat';
+	font-weight: 300;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 29px;
+    color: #ffffff;
+    margin-top: 42px;
+}
+
+		

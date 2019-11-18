@@ -1,0 +1,59 @@
+
+
+body {
+	margin:0;
+}
+* {
+	box-sizing: border-box;
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+a {
+	text-decoration:none;
+}
+p {
+	margin:0;
+}
+h1,h2,h3 {
+	margin :0;
+}
+.wrapper {
+	margin:0 auto;
+	width:1280px;
+} 
+
+.block-slogan {
+	height: 400px;
+	box-sizing: border-box;
+	background-color: #3e4136;
+	padding-top: 114px;
+}
+.box-slogan {
+	text-align: center;
+	&__titul-desk {
+		font-family: 'Myriad Pro';
+		font-weight: normal;
+    	font-style: normal;
+    	font-size: 21px;
+    	padding-bottom: 73px;
+    	width: 714px;
+    	margin: 0 auto;
+    	margin-top: 32px;
+    	color: #dcdcdb;
+    	position: relative;
+    	&:after {
+    		content: "";
+    		background-image: url(../image/brush4.png);
+    		width: 82px;
+    		height: 30px;
+    		bottom: 0;
+    		left: 318px;
+    		position: absolute;
+
+    	}
+	}
+}

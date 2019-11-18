@@ -1,0 +1,66 @@
+body {
+  margin: 0; }
+
+* {
+  box-sizing: border-box; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+p {
+  margin: 0; }
+
+h1, h2, h3, h4 {
+  margin: 0; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 1280px; }
+
+.block-reservation {
+  height: 453px;
+  padding-top: 46px;
+  background-color: #212121;
+  color: #ffffff; }
+
+.box-reservation * {
+  display: block; }
+
+.box-reservation__title-book-here {
+  text-align: center;
+  font-family: 'GoodDog Cool';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 77px;
+  line-height: 53px; }
+
+.box-reservation__form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 37px; }
+
+.button {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center; }
+
+.transparent {
+  background: transparent;
+  width: 235px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 7px; }
+
+.title-bold {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  color: #ffffff; }
+
+/*# sourceMappingURL=block-reservation.css.map */
